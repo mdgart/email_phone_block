@@ -18,14 +18,16 @@ easy_install email_phone_block
 Usage
 -----
 
->>> from email_phone_block import block
->>> block("So please send me an email at name@domain.com, thanks!")
-'So please send me an email at xxxx@xxxxx.xxx, thanks!'
->>> block("So please call me at 333-333-3333, thanks!'")
-'So please call me at xxx-xxx-xxxx, thanks!'
+    >>> from email_phone_block import block
+    >>> block("So please send me an email at name@domain.com, thanks!")
+    'So please send me an email at xxxx@xxxxx.xxx, thanks!'
+    >>> block("So please call me at 333-333-3333, thanks!'")
+    'So please call me at xxx-xxx-xxxx, thanks!'
+
 
 Format Recognized
 =================
+
 Emails
 ------
 name@domain.com  
