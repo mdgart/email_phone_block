@@ -1,6 +1,6 @@
 from distutils.core import setup
 setup(
-  name = 'Email/Phone Block',
+  name = 'email_phone_block',
   packages = ['email_phone_block'], # this must be the same as the name above
   version = '0.1',
   description = 'Substitute emails and phone numbers with dummy in your text.',
