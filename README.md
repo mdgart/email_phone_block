@@ -1,4 +1,4 @@
-email_phone_block
+email/phone block
 =================
 
 A simple python function to substitute emails and phone number with dummies.
@@ -20,15 +20,15 @@ format recognized:
 
 Emails
 ------
-name@domain.com
-name(at)domain.com
-name at domain.com
-
+name@domain.com  
+name(at)domain.com   
+name at domain.com  
+ 
 Phone numbers
 -------------
-333-333-3333
-3333333333
-333 333 3333
-333 333-3333
-333333-3333
-333-3333333  
+333-333-3333  
+3333333333  
+333 333 3333  
+333 333-3333  
+333333-3333  
+333-3333333    
