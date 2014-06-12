@@ -5,19 +5,27 @@ A simple python function to substitute emails and phone number with dummies.
 
 Unittest included.
 
-example
+Install
 -------
 
-text = "So please send me an email at name@domain.com, thanks!"
+pip install email_phone_block 
 
-result: 'So please send me an email at xxxx@xxxxx.xxx, thanks!'
+or
 
-text = "So please call me at 333-333-3333, thanks!'"
+easy_install email_phone_block 
 
-result: 'So please call me at xxx-xxx-xxxx, thanks!'
 
-format recognized:
+Usage
+-----
 
+>>> from email_phone_block import block
+>>> block("So please send me an email at name@domain.com, thanks!")
+'So please send me an email at xxxx@xxxxx.xxx, thanks!'
+>>> block("So please call me at 333-333-3333, thanks!'")
+'So please call me at xxx-xxx-xxxx, thanks!'
+
+Format Recognized
+=================
 Emails
 ------
 name@domain.com  
