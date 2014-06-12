@@ -21,21 +21,14 @@ format recognized:
 Emails
 ------
 name@domain.com
-
 name(at)domain.com
-
 name at domain.com
 
-Phone numbers:
-
+Phone numbers
+-------------
 333-333-3333
-
 3333333333
-
 333 333 3333
-
 333 333-3333
-
 333333-3333
-
-333-3333333
+333-3333333  
