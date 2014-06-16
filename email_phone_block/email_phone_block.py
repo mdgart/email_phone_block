@@ -1,7 +1,7 @@
 import re
 
 
-def block(text):
+def block(text=""):
     """
     Substitute emails and phone number with dummies
 
