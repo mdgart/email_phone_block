@@ -1,7 +1,17 @@
 import re
 
 
-def block(text=""):
+def filter_email(text):
+    email = re.compile(r'\w+(@|at| at |\(at\))[a-zA-Z_]+?\.[a-zA-Z]{2,3}')
+    return email.sub("xxxx@xxxxx.xxx", text)
+
+
+def filter_phone(text):
+    phone = re.compile(r'\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})')
+    return phone.sub("xxx-xxx-xxxx", text)
+
+
+def filter_email_phone(text):
     """
     Substitute emails and phone number with dummies
 
@@ -33,8 +43,10 @@ def block(text=""):
     333-3333333
 
     """
-    email = re.compile(r'\w+(@|at| at |\(at\))[a-zA-Z_]+?\.[a-zA-Z]{2,3}')
-    phone = re.compile(r'\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})')
-    text = email.sub("xxxx@xxxxx.xxx", text)
-    text = phone.sub("xxx-xxx-xxxx", text)
+
+    text = filter_email(text)
+    text = filter_phone(text)
     return text
+
+# Legacy
+block = filter_email_phone
