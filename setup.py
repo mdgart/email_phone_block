@@ -8,7 +8,7 @@ setup(
   author = 'Mauro De Giorgi',
   author_email = 'mauro.degiorgi@gmail.com',
   url = 'https://github.com/mdgart/email_phone_block',
-  download_url = 'https://github.com/mdgart/email_phone_block/tarball/0.1',
+  download_url = 'https://github.com/mdgart/email_phone_block/tarball/0.3',
   keywords = ['email', 'phone number', 'filter', 'blocking', 'text'],
   classifiers = [],
 )
