@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'email_phone_block',
   packages = ['email_phone_block'],
-  version = '0.2',
+  version = '0.3',
   description = 'Substitute emails and phone numbers with dummy in your text.',
   long_description=open('README.md').read(),
   author = 'Mauro De Giorgi',
