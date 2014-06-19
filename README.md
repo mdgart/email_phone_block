@@ -24,7 +24,7 @@ Usage
     >>> filter_phone("So please call me at 333-333-3333, thanks!'")
     'So please call me at xxx-xxx-xxxx, thanks!'
     >>> filter_email_phone("So please call me at 333-333-3333 or email me at name@domain.com, thanks!'")
-    'So please call me at xxx-xxx-xxxx, thanks!'
+    'So please call me at xxx-xxx-xxxx or email at xxxx@xxxxx.xxx, thanks!'
 
 For legacy reason you can still use from email_phone_block import block
 
